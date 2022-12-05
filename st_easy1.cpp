@@ -1,4 +1,4 @@
-#include"st,easy.h"
+#include"st_easy.h"
 string itc_hello_str(string st){
 return ("Hello, " + st);
 }
