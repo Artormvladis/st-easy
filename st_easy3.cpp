@@ -30,7 +30,7 @@ string itc_three_str(string st, string st2, string st3) {
   long long a1;
   while (itc_find_str(st, st2) != -1) {
     string a2, a3;
-    c = itc_find_str(st, st2);
+    a1 = itc_find_str(st, st2);
     for (long long i = 0; i < a1; i++)
       a2 += st[i];
     for (long long i = c + itc_len(st2); st[i] != '\0'; i++)
