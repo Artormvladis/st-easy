@@ -1,4 +1,4 @@
-#include"st,easy.h"
+#include"st_easy.h"
 string itc_cmp_str(string st, string st2, int a1) {
   string st3, st4;
   long long len1 = itc_len(st), len2 = itc_len(st2);
