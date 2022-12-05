@@ -1,4 +1,4 @@
-#include"st,easy.h"
+#include"st_easy.h"
 string itc_even_place(string st) {
   string st2 = "";
   if (itc_len(st) < 2) return "-1";
