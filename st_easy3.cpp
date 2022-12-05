@@ -33,7 +33,7 @@ string itc_three_str(string st, string st2, string st3) {
     a1 = itc_find_str(st, st2);
     for (long long i = 0; i < a1; i++)
       a2 += st[i];
-    for (long long i = c + itc_len(st2); st[i] != '\0'; i++)
+    for (long long i = a1 + itc_len(st2); st[i] != '\0'; i++)
       a3 += st[i];
     st = a2 + st3 + a3;
   }
