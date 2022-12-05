@@ -10,7 +10,7 @@ string itc_cmp_str(string st, string st2, int a1) {
   return st4;
 }
 int itc_find_str(string st, string st2) {
-  long long len1 = itc_len(st1);
+  long long len1 = itc_len(st);
   long long len2 = itc_len(st2);
   for (long long i = 0; i < len1; i++) {
     if (st[i] == st2[0]) {
